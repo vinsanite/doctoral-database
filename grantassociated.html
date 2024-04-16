@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Databases Project Phase 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="Home">
+      <h1>Doctoral Database Management</h1>
+      <h2>Grant Associated Table</h2>
+    </br>
+
+        <div class="Table">
+            <!--Form for displaying table-->
+            <form method="post" action="showGrantAssociated.php">
+                <h3>Show Grant Associated Table</h3>
+                <button type="submit">Show Grant Associated</button>
+            </form>
+
+            <form method="post" action="addGrantAssociated.php">
+                <h3>Add Grant Associated</h3>
+                <input type="text" name="AccountNo" placeholder="Instructor ID" required>
+                <input type="text" name="InstructorId" placeholder="Instructor ID" required>
+                <input type="text" name="InstrType" placeholder="Instructor Type" required>
+                <button type="submit">Add Grant Associated</button>
+            </form>
+        </div>
+        </br>
+        </br>
+        <button><a href="index.html">Return to Database</a></button>
+    </div>
+
+    <div class="Footer">
+      <footer>
+        <ul>
+          <li class="item">
+            <a href="https://github.com/vinsanite/doctoral-database">
+              <i class="fa-brands fa-github icon"></i>
+            </a>
+          </li>
+        </ul>
+          <p>@Copyright 2024 | Made by Game Developer's Club Officers at UTA</p>
+      </footer>
+    </div>
+  </body>
+</html>

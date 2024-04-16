@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Databases Project Phase 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="Home">
+      <h1>Doctoral Database Management</h1>
+      <h2>PHD Student Table</h2>
+    </br>
+
+        <div class="Table">
+            <!--Form for displaying table-->
+            <form method="post" action="showPhdStudent.php">
+                <h3>Show PHD Student Table</h3>
+                <button type="submit">Show PHD Student</button>
+            </form>
+
+            <form method="post" action="addPhdStudent.php">
+                <h3>Add PHD Student</h3>
+                <input type="text" name="StudentId" placeholder="Student ID" required>
+                <input type="text" name="FName" placeholder="First Name" required>
+                <input type="text" name="LName" placeholder="Last Name" required>
+                <input type="text" name="StSem" placeholder="Starting Semester" required>
+                <input type="text" name="StYear" placeholder="Starting Year" required>
+                <input type="text" name="Supervisor" placeholder="Supervisor" required>
+                <button type="submit">Add PHD Student</button>
+            </form>
+        </div>
+        </br>
+        </br>
+        <button><a href="index.html">Return to Database</a></button>
+    </div>
+
+    <div class="Footer">
+      <footer>
+        <ul>
+          <li class="item">
+            <a href="https://github.com/vinsanite/doctoral-database">
+              <i class="fa-brands fa-github icon"></i>
+            </a>
+          </li>
+        </ul>
+          <p>@Copyright 2024 | Made by Game Developer's Club Officers at UTA</p>
+      </footer>
+    </div>
+  </body>
+</html>

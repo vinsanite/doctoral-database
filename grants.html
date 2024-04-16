@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Databases Project Phase 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="Home">
+      <h1>Doctoral Database Management</h1>
+      <h2>Grants Table</h2>
+    </br>
+
+        <div class="Table">
+            <!--Form for displaying table-->
+            <form method="post" action="showGrants.php">
+                <h3>Show Grants Table</h3>
+                <button type="submit">Show Grants</button>
+            </form>
+
+            <form method="post" action="addGrants.php">
+                <h3>Add Grant</h3>
+                <input type="text" name="GrantId" placeholder="Grant ID" required>
+                <input type="text" name="Type" placeholder="Type" required>
+                <input type="text" name="GrantTitle" placeholder="Grant Title" required>
+                <input type="text" name="Sourc" placeholder="Source" required>
+                <input type="date" name="StDate" placeholder="Start Date" required>
+                <input type="date" name="EndDate" placeholder="End Date" required>
+                <input type="number" name="StAmount" placeholder="Start Amount" required>
+                <input type="number" name="CurrBalance" placeholder="Current Balance" required>
+                <button type="submit">Add Grants</button>
+            </form>
+        </div>
+        </br>
+        </br>
+        <button><a href="index.html">Return to Database</a></button>
+    </div>
+
+    <div class="Footer">
+      <footer>
+        <ul>
+          <li class="item">
+            <a href="https://github.com/vinsanite/doctoral-database">
+              <i class="fa-brands fa-github icon"></i>
+            </a>
+          </li>
+        </ul>
+          <p>@Copyright 2024 | Made by Game Developer's Club Officers at UTA</p>
+      </footer>
+    </div>
+  </body>
+</html>
