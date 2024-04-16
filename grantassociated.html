@@ -20,8 +20,11 @@
 
             <form method="post" action="addGrantAssociated.php">
                 <h3>Add Grant Associated</h3>
-                <input type="text" name="AccountNo" placeholder="Instructor ID" required>
+                <label for="AccountNo">Account Number:</label>
+                <input type="text" name="AccountNo" placeholder="Account Number" required>
+                <label for="InstructorId">Instructor ID:</label>
                 <input type="text" name="InstructorId" placeholder="Instructor ID" required>
+                <label for="InstrType">Instructor Type:</label>
                 <input type="text" name="InstrType" placeholder="Instructor Type" required>
                 <button type="submit">Add Grant Associated</button>
             </form>

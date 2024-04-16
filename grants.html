@@ -20,13 +20,21 @@
 
             <form method="post" action="addGrants.php">
                 <h3>Add Grant</h3>
+                <label for="GrantId">Grant ID:</label>
                 <input type="text" name="GrantId" placeholder="Grant ID" required>
+                <label for="Type">Type:</label>
                 <input type="text" name="Type" placeholder="Type" required>
+                <label for="GrantTitle">Grant Title:</label>
                 <input type="text" name="GrantTitle" placeholder="Grant Title" required>
+                <label for="Sourc">Source:</label>
                 <input type="text" name="Sourc" placeholder="Source" required>
+                <label for="StDate">Start Date:</label>
                 <input type="date" name="StDate" placeholder="Start Date" required>
+                <label for="EndDate">End Date:</label>
                 <input type="date" name="EndDate" placeholder="End Date" required>
+                <label for="StAmount">Start Amount:</label>
                 <input type="number" name="StAmount" placeholder="Start Amount" required>
+                <label for="CurrBalance">Current Balance:</label>
                 <input type="number" name="CurrBalance" placeholder="Current Balance" required>
                 <button type="submit">Add Grants</button>
             </form>
