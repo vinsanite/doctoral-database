@@ -15,6 +15,10 @@
     --blue: #4682A9;
 }
 
+a {
+    color: black;
+}
+
 a:visited {
     color: black;
 }
@@ -27,6 +31,19 @@ button {
 
 button:hover {
     transform: scale(1.1, 1.1);
+}
+
+.Selection {
+    padding-top: 5rem;
+}
+
+.Selection button {
+    width: 100px;
+    height: 50px;
+}
+
+.Selection ul {
+    column-count: 4;
 }
 
 h1 {
