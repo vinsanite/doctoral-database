@@ -9,7 +9,7 @@
     <div class="Home">
       <h1>Doctoral Database Management</h1>
       <h2>Grant Associated Table</h2>
-    </br>
+    <br />
 
         <div class="Table">
             <!--Form for displaying table-->
@@ -17,6 +17,7 @@
                 <h3>Show Grant Associated Table</h3>
                 <button type="submit">Show Grant Associated</button>
             </form>
+            <br />
 
             <form method="post" action="addGrantAssociated.php">
                 <h3>Add Grant Associated</h3>
@@ -28,10 +29,20 @@
                 <input type="text" name="InstrType" placeholder="Instructor Type" required>
                 <button type="submit">Add Grant Associated</button>
             </form>
+            <br />
+
+            <form method="post" action="deleteGrantAssociated.php">
+              <h3>Delete Grant Associated</h3>
+              <label for="AccountNo">Account Number:</label>
+              <input type="text" name="AccountNo" placeholder="Account Number" required>
+              <label for="InstructorId">Instructor ID:</label>
+              <input type="text" name="InstructorId" placeholder="Instructor ID" required>
+              <button type="submit">Delete Grant Associated</button>
+            </form>
         </div>
-        </br>
-        </br>
-        <button><a href="index.html">Return to Database</a></button>
+        <br />
+        <br />
+        <button><a href="index.html" class="return">Return to Database</a></button>
     </div>
 
     <div class="Footer">

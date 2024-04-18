@@ -9,7 +9,7 @@
     <div class="Home">
       <h1>Doctoral Database Management</h1>
       <h2>GTA Table</h2>
-    </br>
+    <br />
 
         <div class="Table">
             <!--Form for displaying table-->
@@ -17,6 +17,7 @@
                 <h3>Show GTA Table</h3>
                 <button type="submit">Show GTA</button>
             </form>
+            <br />
 
             <form method="post" action="addGTA.php">
                 <h3>Add GTA</h3>
@@ -30,10 +31,20 @@
                 <input type="text" name="Department" placeholder="Department" required>
                 <button type="submit">Add GTA</button>
             </form>
+            <br />
+
+            <form method="post" action="deleteGTA.php">
+              <h3>Delete GTA</h3>
+              <label for="SectionId">Section ID:</label>
+              <input type="text" name="SectionId" placeholder="Section ID" required>
+              <label for="StudentId">Student ID:</label>
+              <input type="text" name="StudentId" placeholder="Student ID" required>
+              <button type="submit">Delete GTA</button>
+            </form>
         </div>
-        </br>
-        </br>
-        <button><a href="index.html">Return to Database</a></button>
+        <br />
+        <br />
+        <button><a href="index.html" class="return">Return to Database</a></button>
     </div>
 
     <div class="Footer">
