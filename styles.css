@@ -23,6 +23,87 @@ a:visited {
     color: black;
 }
 
+.Selection h2 {
+    padding-bottom: 5%;
+}
+
+/*expanded the area to match with the button to be clicked*/
+.buttonStudent {
+    padding: 16% 10%; /*padding: vertical% horizontal%*/
+}
+
+.buttonInstructor {
+    padding: 16% 21%;
+}
+
+.buttonCourses {
+    padding: 16% 25%;
+}
+
+.buttonTaught {
+    padding: 16% 0%;
+}
+
+.buttonSection {
+    padding: 16% 27%;
+}
+
+.buttonGTA {
+    padding: 16% 37%;
+}
+
+.buttonGRA {
+    padding: 16% 36%;
+}
+
+.buttonTT {
+    padding: 16% 42%;
+}
+
+/*
+.buttonCommittee {
+    background-color: maroon;
+    padding: 0% 0%;
+}
+*/
+
+.buttonGrants {
+    padding: 16% 30%;
+}
+
+/*
+.buttonAssociated {
+    background-color: maroon;
+    padding: 0% 0%;
+}
+*/
+
+.buttonScholarship {
+    padding: 16% 14%;
+}
+
+/*
+.buttonSupport {
+    background-color: maroon;
+    padding: 0% 0%;
+}
+*/
+
+.buttonSelf {
+    padding: 16% 11%;
+}
+
+.buttonMilestone {
+    padding: 16% 21%;
+}
+
+/*
+.buttonPassed {
+    background-color: maroon;
+    padding: 0% 0%;
+}
+*/
+
 button {
     background-color: var(--lightblue);
     padding: 0.5%;
