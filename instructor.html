@@ -36,6 +36,17 @@
                 <input type="text" name="Type" placeholder="Type" required>
                 <button type="submit">Add Instructor</button>
             </form>
+
+            <form method="post" action="linkInstructor.php">
+              <h3>Link Instructor</h3>
+              <label for="InstructorId">Instructor ID:</label>
+              <input type="text" name="InstructorId" required>
+              <label for="CourseId">Course ID:</label>
+              <input type="text" name="CourseId" required>
+              <label for="StudentId">Student ID:</label>
+              <input type="text" name="StudentId" required>
+              <button type="submit">Link Instructor</button>
+          </form>
         </div>
         </br>
         </br>
