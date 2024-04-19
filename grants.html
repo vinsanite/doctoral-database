@@ -9,7 +9,7 @@
     <div class="Home">
       <h1>Doctoral Database Management</h1>
       <h2>Grants Table</h2>
-    </br>
+    <br />
 
         <div class="Table">
             <!--Form for displaying table-->
@@ -17,6 +17,7 @@
                 <h3>Show Grants Table</h3>
                 <button type="submit">Show Grants</button>
             </form>
+            <br />
 
             <form method="post" action="addGrants.php">
                 <h3>Add Grant</h3>
@@ -38,10 +39,18 @@
                 <input type="number" name="CurrBalance" placeholder="Current Balance" required>
                 <button type="submit">Add Grants</button>
             </form>
+            <br />
+
+            <form method="post" action="deleteGrants.php">
+              <h3>Delete Grant</h3>
+              <label for="GrantId">Grant ID:</label>
+              <input type="text" name="GrantId" placeholder="Grant ID" required>
+              <button type="submit">Delete Grants</button>
+            </form>
         </div>
-        </br>
-        </br>
-        <button><a href="index.html">Return to Database</a></button>
+        <br />
+        <br />
+        <button><a href="index.html" class="return">Return to Database</a></button>
     </div>
 
     <div class="Footer">

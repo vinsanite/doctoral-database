@@ -9,7 +9,7 @@
     <div class="Home">
       <h1>Doctoral Database Management</h1>
       <h2>Milestone Table</h2>
-    </br>
+    <br />
 
         <div class="Table">
             <!--Form for displaying table-->
@@ -17,6 +17,7 @@
                 <h3>Show Milestone Table</h3>
                 <button type="submit">Show Milestone</button>
             </form>
+            <br />
 
             <form method="post" action="addMilestone.php">
                 <h3>Add Milestone</h3>
@@ -26,10 +27,18 @@
                 <input type="text" name="MName" placeholder="Milestone Name" required>
                 <button type="submit">Add Milestone</button>
             </form>
+            <br />
+            
+            <form method="post" action="deleteMilestone.php">
+              <h3>Delete Milestone</h3>
+              <label for="MId">Milestone ID:</label>
+              <input type="text" name="MId" placeholder="Milestone ID" required>
+              <button type="submit">Delete Milestone</button>
+            </form>
         </div>
-        </br>
-        </br>
-        <button><a href="index.html">Return to Database</a></button>
+        <br />
+        <br />
+        <button><a href="index.html" class="return">Return to Database</a></button>
     </div>
 
     <div class="Footer">

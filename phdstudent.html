@@ -9,7 +9,7 @@
     <div class="Home">
       <h1>Doctoral Database Management</h1>
       <h2>PHD Student Table</h2>
-    </br>
+    <br />
 
         <div class="Table">
             <!--Form for displaying table-->
@@ -17,6 +17,7 @@
                 <h3>Show PHD Student Table</h3>
                 <button type="submit">Show PHD Student</button>
             </form>
+            <br />
 
             <form method="post" action="addPhdStudent.php">
                 <h3>Add PHD Student</h3>
@@ -34,10 +35,18 @@
                 <input type="text" name="Supervisor" placeholder="Supervisor" required>
                 <button type="submit">Add PHD Student</button>
             </form>
+            <br />
+
+            <form method="post" action="deletePhdStudent.php">
+              <h3>Delete PHD Student</h3>
+              <label for="StudentId">Student ID:</label>
+              <input type="text" name="StudentId" placeholder="Student ID" required>
+              <button type="submit">Delete PHD Student</button>
+            </form>
         </div>
-        </br>
-        </br>
-        <button><a href="index.html">Return to Database</a></button>
+        <br />
+        <br />
+        <button><a href="index.html" class="return">Return to Database</a></button>
     </div>
 
     <div class="Footer">
