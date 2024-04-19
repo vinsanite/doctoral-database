@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cname = $_POST['CName'] ?? "";
 
     //validate input 
-    if (!empty($courseID) && !empty($cname)) {
+    if ($courseID != "" && $cname != "") {
         $stmt = $conn->prepare("INSERT INTO Course (CourseID, CName) VALUES (?, ?)");
         $stmt->bind_param("ss", $courseID, $cname);
 
@@ -41,4 +41,4 @@ $conn->close();
 ?>
 
 <!-- Link back to the main form -->
-<a href="index.hmtl">Back to main Page</a>
+<a href="index.html">Back to main Page</a>
